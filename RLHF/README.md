@@ -6,7 +6,7 @@
 - PPO算法介绍：[Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
 - ChatGPT对PPO算法的应用：[Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)
 
-##RLHF简介
+## RLHF简介
 
 RLHF旨在将模型输出与人类偏好进行对齐，该方法主要分为两步：
 
@@ -15,7 +15,7 @@ RLHF旨在将模型输出与人类偏好进行对齐，该方法主要分为两�
 
 方法流程如下图所示（图片截取自[Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)）：
 
-![](resources/RLHF.PNG)
+![](resources/RLHF.PNG){:height="50%" width="50%"}
 
 ## 软件依赖
 
