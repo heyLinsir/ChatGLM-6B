@@ -1,0 +1,16 @@
+python src/train_ppo.py \
+    --model_name_or_path THUDM/chatglm-6b \
+    --do_train \
+    --dataset alpaca_gpt4_zh \
+    --finetuning_type lora \
+    --checkpoint_dir path_to_sft_checkpoint \
+    --reward_model path_to_rm_checkpoint \
+    --output_dir path_to_ppo_checkpoint \
+    --per_device_train_batch_size 2 \
+    --gradient_accumulation_steps 4 \
+    --lr_scheduler_type cosine \
+    --logging_steps 10 \
+    --save_steps 1000 \
+    --learning_rate 1e-5 \
+    --num_train_epochs 1.0 \
+    --fp16
